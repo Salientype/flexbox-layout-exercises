@@ -1,18 +1,23 @@
 .container {
     display: flex;
     flex-direction: column;
-
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 
 .row div {
-    height: 6vw;
-    width: 6vw;
+    height: 12.5vh;
+    max-width: 12.5vh;
+    max-height: 12.5vh;
+    flex-grow: 1;
 }
 
 .row {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    min-width: 100vh;
 }
 
 .row:nth-child(even) {
