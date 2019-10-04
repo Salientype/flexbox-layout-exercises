@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    background-color: aquamarine;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    background-color: yellow;
+}
+
+.sidebar-lft, .sidebar-rht {
+    width: 30%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sidebar-lft nav {
+    display: flex;
+    flex-direction: column;
+}
